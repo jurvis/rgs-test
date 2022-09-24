@@ -1,0 +1,14 @@
+[package]
+name = "rgs-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lightning = "0.0.111"
+bitcoin = "0.29.1"
+chrono = "0.4.22"
+lightning-rapid-gossip-sync = "0.0.111"
+reqwest = "0.11.12"
+tokio = { version = "1.21.1", features = ["full"] }
